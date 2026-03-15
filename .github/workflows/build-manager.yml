@@ -19,6 +19,7 @@ on:
       - 'manager/**'
       - 'kernel/**'
       - 'userspace/**'
+  workflow_dispatch:
   workflow_call:
 
 jobs:
