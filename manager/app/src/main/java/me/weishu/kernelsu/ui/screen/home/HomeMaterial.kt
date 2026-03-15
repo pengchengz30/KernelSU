@@ -108,7 +108,7 @@ fun HomePagerMaterial(
                 onClickSuperuser = { mainState.animateToPage(1) },
                 onclickModule = { mainState.animateToPage(2) },
             )
-            if (ksuVersion != null && !Natives.isLkmMode) {
+            if (false && ksuVersion != null && !Natives.isLkmMode) {
                 WarningCard(
                     stringResource(id = R.string.home_gki_warning),
                     MaterialTheme.colorScheme.tertiaryContainer
