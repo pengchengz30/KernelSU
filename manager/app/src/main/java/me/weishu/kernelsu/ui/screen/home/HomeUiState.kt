@@ -30,7 +30,7 @@ data class HomeUiState(
         get() = isManager && !requiresNewKernel && isRootAvailable
 
     val showGkiWarning: Boolean
-        get() = ksuVersion != null && lkmMode == false
+        get() = false
 
     val showRequireKernelWarning: Boolean
         get() = isManager && requiresNewKernel
