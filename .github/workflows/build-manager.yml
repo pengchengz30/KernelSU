@@ -1,7 +1,9 @@
 name: Build Manager
 
 on:
-  # push:
+  push:
+    tags:
+      - 'v*'
   #   branches: [ "main", "dev", "ci" ]
   #   paths:
   #     - '.github/workflows/build-manager.yml'
