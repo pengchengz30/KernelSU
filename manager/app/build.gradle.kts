@@ -110,7 +110,7 @@ android {
     defaultConfig {
         minSdk = androidMinSdkVersion
         targetSdk = androidTargetSdkVersion
-        versionCode = 32402
+        versionCode = 32404
         versionName = managerVersionName
 
         val isPrBuild = project.findProperty("IS_PR_BUILD")?.toString()?.toBoolean() ?: false
