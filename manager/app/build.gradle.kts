@@ -112,7 +112,7 @@ android {
     defaultConfig {
         minSdk = androidMinSdkVersion
         targetSdk = androidTargetSdkVersion
-        versionCode = 32426
+        versionCode = 32429
         versionName = managerVersionName
 
         buildConfigField("boolean", "IS_PR_BUILD", isPrBuild.toString())
